@@ -388,6 +388,13 @@ img { display: block; max-width: 100%; }
   align-items: flex-start;
   gap: 12px;
 }
+
+.info-item div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
 .info-icon {
   width: 36px; height: 36px;
   background: var(--pink-glow);
@@ -417,12 +424,23 @@ img { display: block; max-width: 100%; }
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
-  margin-bottom: 2px;
+
+  margin-bottom: 6px;   /* FIX: increase spacing */
+  line-height: 1.2;
 }
+
 .info-value {
   display: block;
   font-weight: 500;
-  font-size: 0.9rem;
+  font-size: 0.95rem;
+
+  line-height: 1.4;   /* FIX: prevents merging */
+}
+
+.about__info-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;   /* increase from 16px */
 }
 
 .about__stats {
