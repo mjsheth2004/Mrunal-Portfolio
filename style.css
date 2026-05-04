@@ -385,14 +385,16 @@ img { display: block; max-width: 100%; }
 }
 .info-item {
   display: flex;
-  align-items: flex-start;
+  align-items: flex-start;   /* keep top aligned */
   gap: 12px;
+  minimum-width:0;
 }
 
+/* TEXT CONTAINER (IMPORTANT FIX) */
 .info-item div {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  width: 100%;              /* ✅ THIS FIXES OVERLAP */
 }
 
 .info-icon {
@@ -419,22 +421,21 @@ img { display: block; max-width: 100%; }
   line-height: 1;
 }
 .info-label {
-  display: block;
   font-size: 0.75rem;
   color: var(--muted);
   text-transform: uppercase;
   letter-spacing: 0.1em;
 
-  margin-bottom: 6px;   /* FIX: increase spacing */
+  margin-bottom: 6px;
   line-height: 1.2;
 }
 
 .info-value {
-  display: block;
   font-weight: 500;
   font-size: 0.95rem;
 
-  line-height: 1.4;   /* FIX: prevents merging */
+  line-height: 1.5;   /* ✅ prevents merging */
+  word-break: break-word; /* ✅ prevents text overlap */
 }
 
 .about__info-grid {
