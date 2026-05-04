@@ -385,7 +385,9 @@ img { display: block; max-width: 100%; }
 }
 .info-item {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
+  width: 34px;
+  height: 34px;
   gap: 12px;
 }
 .info-icon {
