@@ -391,22 +391,23 @@ img { display: block; max-width: 100%; }
   gap: 12px;
 }
 .info-icon {
-  width: 36px; height: 36px;
+  width: 36px;
+  height: 36px;
   background: var(--pink-glow);
   color: var(--pink);
   border-radius: 8px;
+
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 0.85rem;
+
+  font-size: 0.95rem;
   flex-shrink: 0;
 }
+
 .info-icon i {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
+  display: block;
+  line-height: 1;
 }
 .info-label {
   display: block;
