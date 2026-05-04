@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mrunal Sheth — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&family=DM+Sans:ital,wght@0,300;0,400;0,500;1,300&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <header id="header">
+    <nav class="nav container">
+      <a class="nav__logo" href="#home">MS</a>
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li><a href="#home" class="nav__link active-link">Home</a></li>
+          <li><a href="#about" class="nav__link">About</a></li>
+          <li><a href="#skills" class="nav__link">Skills</a></li>
+          <li><a href="#projects" class="nav__link">Projects</a></li>
+          <li><a href="#contact" class="nav__link">Contact</a></li>
+          <li>
+            <a href="Mrunal_Sheth_Resume.pdf" download class="btn btn--nav">
+              Download CV <i class="fa-solid fa-download"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ===== HERO ===== -->
+    <section class="hero section" id="home">
+      <div class="hero__bg-grid"></div>
+      <div class="hero__glow hero__glow--1"></div>
+      <div class="hero__glow hero__glow--2"></div>
+
+      <div class="container hero__container">
+        <div class="hero__text">
+          <div class="hero__greeting">
+            <span class="wave">👋</span> Hi there, I'm
+          </div>
+          <h1 class="hero__name">
+            Mrunal<br/><span class="accent">Sheth</span>
+          </h1>
+          <p class="hero__roles">
+            <span class="role-badge">iMCA Student</span>
+            <span class="role-sep">|</span>
+            <span class="role-badge">Flutter Developer</span>
+            <span class="role-sep">|</span>
+            <span class="role-badge">Web Developer</span>
+          </p>
+          <p class="hero__desc">
+            I build responsive websites and cross-platform mobile apps using modern technologies.
+            I love turning ideas into real-world digital solutions — and cooking up intelligent apps that make life easier.
+          </p>
+          <div class="hero__cta">
+            <a href="#projects" class="btn btn--primary">View My Work <i class="fa-solid fa-arrow-right"></i></a>
+            <a href="#contact" class="btn btn--outline">Hire Me</a>
+          </div>
+          <div class="hero__socials">
+            <a href="https://github.com/mjsheth2004" target="_blank" class="social-icon" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/mrunal-sheth-650134325" target="_blank" class="social-icon" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:mjsheth2004@gmail.com" class="social-icon" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+919429641642" class="social-icon" aria-label="Phone"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+
+        <div class="hero__image-wrap">
+          <div class="hero__img-glow"></div>
+          <div class="hero__hexagon">
+            <img src="profile.png" alt="Mrunal Sheth" class="hero__photo" />
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__scroll">
+        <span>Scroll down</span>
+        <div class="scroll-line"></div>
+      </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about section" id="about">
+      <div class="container about__container">
+        <div class="about__card">
+          <div class="section-tag">About Me</div>
+          <h2 class="section-title">Who Am I?</h2>
+          <p class="about__bio">
+            I am an iMCA student at <strong>GLS University, Ahmedabad</strong> (NAAC A+, CGPA 3.44),
+            passionate about building mobile apps and websites with modern technologies like Flutter,
+            Firebase, HTML, CSS, and JavaScript. I love solving real-world problems and continuously
+            learning new things.
+          </p>
+          <p class="about__bio">
+            My latest project, <span class="accent">InstaChef</span>, is an AI-powered culinary social
+            network developed under the guidance of <strong>Dr. Ruchika Rami</strong> and
+            <strong>Ms. Aditi Tripathi</strong> from Aucio Infotech, Jaipur. It combines OpenAI,
+            Flutter, and Firebase to modernize how people discover and share recipes.
+          </p>
+
+          <div class="about__info-grid">
+            <div class="info-item">
+              <i class="fa-solid fa-user info-icon"></i>
+              <div>
+                <span class="info-label">Name</span>
+                <span class="info-value">Mrunal Sheth</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-graduation-cap info-icon"></i>
+              <div>
+                <span class="info-label">Education</span>
+                <span class="info-value">iMCA — GLS University</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot info-icon"></i>
+              <div>
+                <span class="info-label">Location</span>
+                <span class="info-value">Ahmedabad, Gujarat</span>
+              </div>
+            </div>
+            <div class="info-item">
+              <i class="fa-solid fa-envelope info-icon"></i>
+              <div>
+                <span class="info-label">Email</span>
+                <span class="info-value">mjsheth2004@gmail.com</span>
+              </div>
+            </div>
+          </div>
+
+          <a href="Mrunal_Sheth_Resume.pdf" download class="btn btn--primary">
+            Download CV <i class="fa-solid fa-download"></i>
+          </a>
+        </div>
+
+        <div class="about__stats">
+          <div class="stat-card">
+            <span class="stat-num">6</span>
+            <span class="stat-label">Semesters Completed</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">9+</span>
+            <span class="stat-label">Technologies Known</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">3</span>
+            <span class="stat-label">Projects Built</span>
+          </div>
+          <div class="stat-card">
+            <span class="stat-num">8.5+</span>
+            <span class="stat-label">University CGPA</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== SKILLS ===== -->
+    <section class="skills section" id="skills">
+      <div class="container">
+        <div class="section-tag center">My Skills</div>
+        <h2 class="section-title center">Technologies I Work With</h2>
+
+        <div class="skills__grid">
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--html">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <span>HTML5</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--css">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <span>CSS3</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--js">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <span>JavaScript</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--flutter">
+              <i class="fa-solid fa-mobile-screen-button"></i>
+            </div>
+            <span>Flutter</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--firebase">
+              <i class="fa-solid fa-fire"></i>
+            </div>
+            <span>Firebase</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--dart">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <span>Dart</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--git">
+              <i class="fa-brands fa-git-alt"></i>
+            </div>
+            <span>Git & GitHub</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--c">
+              <i class="fa-solid fa-terminal"></i>
+            </div>
+            <span>C / C++</span>
+          </div>
+          <div class="skill-card">
+            <div class="skill-icon skill-icon--java">
+              <i class="fa-brands fa-java"></i>
+            </div>
+            <span>Java</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== PROJECTS ===== -->
+    <section class="projects section" id="projects">
+      <div class="container">
+        <div class="section-tag center">Projects</div>
+        <h2 class="section-title center">Some Things I've Built</h2>
+
+        <div class="projects__grid">
+
+          <!-- InstaChef -->
+          <div class="project-card project-card--featured">
+            <div class="project-card__header">
+              <div class="project-card__icon">
+                <img src="instachef-logo.png" alt="InstaChef Logo" class="project-logo" />
+              </div>
+              <div class="project-card__links">
+                <a href="#" class="proj-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="#" class="proj-link" aria-label="External"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3 class="project-card__title"><span class="accent">InstaChef</span></h3>
+            <p class="project-card__desc">
+              An AI-Powered Culinary Social Network that modernizes the cooking experience through OpenAI integration,
+              community recipe sharing, and real-time collaboration. Built with Flutter and Firebase.
+            </p>
+            <ul class="project-card__highlights">
+              <li>AI recipe generation from available ingredients</li>
+              <li>Community-driven recipe sharing & saving</li>
+              <li>Dietary filters & allergy detection</li>
+              <li>Real-time messaging between chefs</li>
+            </ul>
+            <div class="project-card__tags">
+              <span class="tag tag--flutter">Flutter</span>
+              <span class="tag tag--fire">Firebase</span>
+              <span class="tag tag--ai">OpenAI</span>
+              <span class="tag tag--cloud">Cloudinary</span>
+            </div>
+          </div>
+
+          <!-- Tic Tac Toe -->
+          <div class="project-card">
+            <div class="project-card__header">
+              <div class="project-card__icon">🎮</div>
+              <div class="project-card__links">
+                <a href="https://github.com/mjsheth2004/TicTacToe" class="proj-link" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+                <a href="https://mjsheth2004.github.io/TicTacToe/TicTacToe" class="proj-link" aria-label="External"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+              </div>
+            </div>
+            <h3 class="project-card__title">Tic Tac Toe</h3>
+            <p class="project-card__desc">
+              Classic Tic Tac Toe game built with HTML, CSS, and JavaScript featuring a modern UI,
+              game state management, and clean animations.
+            </p>
+            <div class="project-card__tags">
+              <span class="tag tag--html">HTML</span>
+              <span class="tag tag--css">CSS</span>
+              <span class="tag tag--js">JS</span>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact section" id="contact">
+      <div class="container">
+        <div class="section-tag center">Let's Connect</div>
+        <h2 class="section-title center">Get In Touch</h2>
+        <p class="contact__sub">
+          I'm always open to discussing new projects, creative ideas, or opportunities.
+          Feel free to reach out!
+        </p>
+
+        <div class="contact__grid">
+          <a href="mailto:mjsheth2004@gmail.com" class="contact-card">
+            <div class="contact-card__icon" style="color: var(--pink)">
+              <i class="fa-solid fa-envelope"></i>
+            </div>
+            <span class="contact-card__label">Email</span>
+            <span class="contact-card__value">mjsheth2004@gmail.com</span>
+          </a>
+          <a href="https://www.linkedin.com/in/mrunal-sheth-650134325" target="_blank" class="contact-card">
+            <div class="contact-card__icon" style="color: #0a66c2">
+              <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            <span class="contact-card__label">LinkedIn</span>
+            <span class="contact-card__value">linkedin.com/in/mrunal-sheth-650134325</span>
+          </a>
+          <a href="tel:+919429641642" class="contact-card">
+            <div class="contact-card__icon" style="color: var(--cyan)">
+              <i class="fa-solid fa-phone"></i>
+            </div>
+            <span class="contact-card__label">Phone</span>
+            <span class="contact-card__value">+91 94296 41642</span>
+          </a>
+          <div class="contact-card">
+            <div class="contact-card__icon" style="color: #f59e0b">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <span class="contact-card__label">Location</span>
+            <span class="contact-card__value">Ahmedabad, Gujarat, India</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span>© 2025 Mrunal Sheth. All rights reserved.</span>
+      <span>Made with <span class="accent">♥</span> and Flutter &amp; Web</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
